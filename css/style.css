@@ -1,0 +1,67 @@
+body {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0) url(../img/background/bg_all_page.jpg) 0 0 repeat;
+}
+main {
+    width: 100%;
+    background: #000 url(../img/background/main-screen__bgc.jpg) 0 0/cover no-repeat;
+}
+.nav {
+    padding: 40px 80px 190px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login {
+    padding: 10px 30px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border-radius: 50px;
+    color: #ffffff;
+}
+.nav ul {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li a {
+    color: #fff;
+}
+.main {
+    margin-left: 15%;
+    width: 920px;
+    display: flex;
+    flex-direction: column;
+}
+.main h1 {
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 90px;
+}
+.timer {
+
+    margin-bottom: 220px;
+    display: grid;
+    grid-template-columns: 115px 115px 115px 115px;
+    gap: 30px;
+}
+.timer__time {
+    padding: 20px 0;
+    background: #121212;
+    text-align: center;
+    vertical-align: center;
+}
+.timer__time h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 140%;
+}
+.timer__time p{
+    font-size: 16px;
+    line-height: 140%;
+    opacity: 0.4;
+}

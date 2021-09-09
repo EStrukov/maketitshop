@@ -31,7 +31,7 @@ li a {
     color: #fff;
 }
 .main {
-    margin-left: 15%;
+    margin-left: 10%;
     width: 920px;
     display: flex;
     flex-direction: column;
@@ -71,6 +71,7 @@ li a {
     justify-content: space-between;
     align-items: center;
     background: #121212;
+    margin-bottom: 200px;
 }
 
 .level {
@@ -85,11 +86,10 @@ li a {
 .level div {
     margin: 0;
     height: 6px;
-    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
-    
+    background: linear-gradient(94.78deg, #df5950 11.19%, #451046 93.72%);
 }
 .main-sales__button {
-    margin-left: 15%;
+    margin-left: 10%;
 }
 .main-sales__button a {
     background: linear-gradient(94.78deg, #df5950 11.19%, #451046 93.72%);
@@ -111,12 +111,37 @@ tr td:last-of-type {
 }
 .main-sales__money {
     width: 30%;
-    margin-right: 15%;
+    margin-right: 10%;
 }
 .skill-html span {
+    color: #fff;
+    opacity: 1.4;
     padding-left: 30px;
 }
 .main-sales__money_flex {
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+}
+.doing {
+    margin: 0 10%;
+    display: flex;
+    gap: 100px;
+    margin-bottom: 200px;
+}
+.doing-h {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 67px;
+    margin: 45px 0;
+}
+.doing-p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+.doing-img {
 }

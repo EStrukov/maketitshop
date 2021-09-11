@@ -211,3 +211,69 @@ tr td:last-of-type {
     line-height: 160%;
     opacity: 0.5;
 }
+.about {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-areas:
+        "head head head"
+        "ione itwo itree"
+        "hone htwo htree"
+        "pone ptwo ptree";
+    row-gap: 30px;
+    column-gap: 50px;
+    text-align: center;
+    margin: 0 10% 200px;
+}
+.about h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    margin-bottom: 60px;
+}
+.about h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+}
+.about p {
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.8;
+}
+.about img {
+    margin: 0 auto;
+}
+.main_h {
+    grid-area: head;
+}
+.imgpc {
+    grid-area: ione;
+}
+.skill {
+    grid-area: hone;
+}
+.pone {
+    grid-area: pone;
+}
+.imgusb {
+    grid-area: itwo;
+}
+.equipment {
+    grid-area: htwo;
+}
+.ptwo {
+    grid-area: ptwo;
+}
+.imgcable {
+    grid-area: itree;
+}
+.sertificate {
+    grid-area: htree;
+}
+.pthree {
+    grid-area: ptree;
+}

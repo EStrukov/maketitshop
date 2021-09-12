@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto, Arial, sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 24px;
     color: #fff;
@@ -20,6 +20,10 @@ main {
     background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
     border-radius: 50px;
     color: #ffffff;
+    transition-duration: 3s;
+}
+.login:hover {
+    background: linear-gradient(95deg, rgba(124, 106, 250, 1) 10%, rgba(200, 154, 252, 1) 90%);
 }
 .nav ul {
     width: 60%;
@@ -101,7 +105,6 @@ tr td:last-of-type {
     padding-left: 30px;
 }
 .text-opacity {
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -132,7 +135,6 @@ tr td:last-of-type {
     margin-bottom: 200px;
 }
 .doing-h {
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -140,7 +142,6 @@ tr td:last-of-type {
     margin: 45px 0;
 }
 .doing-p {
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -197,14 +198,12 @@ tr td:last-of-type {
 }
 .percetence__block h3 {
     display: block;
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 140%;
 }
 .percetence__block p {
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -225,7 +224,6 @@ tr td:last-of-type {
     margin: 0 10% 200px;
 }
 .about h2 {
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -276,4 +274,118 @@ tr td:last-of-type {
 }
 .pthree {
     grid-area: ptree;
+}
+.partner {
+    margin: 0 10% 60px 10%;
+}
+.partner h2 {
+    display: inline;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    margin-bottom: 60px;
+}
+.partner img {
+    margin-right: 20px;
+}
+.msi_one,
+.msi_two {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.msiimg img {
+    width: 25%;
+    padding: 29px 66px;
+}
+.msi_one img {
+    border-bottom: 1px solid rgb(100%, 100%, 100%, 0.3);
+    border-right: 1px solid rgb(100%, 100%, 100%, 0.3);
+}
+.msi_one img:last-child {
+    border-right: none;
+}
+.msi_two img:not(:last-child) {
+    border-right: 1px solid rgb(100%, 100%, 100%, 0.3);
+}
+.msi_two {
+    margin-bottom: 150px;
+}
+.learning {
+    width: 750px;
+    margin: 0 auto 170px;
+    text-align: center;
+}
+.learning img {
+    margin-bottom: 30px;
+}
+.learning h2 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    margin-bottom: 30px;
+}
+.learning p  {
+    font-size: 16px;
+    line-height: 160%;
+    color: rgb(100%, 100%, 100%, 0.5);
+    margin-bottom: 80px;
+}
+.steps {
+    display: grid;
+    grid-template-columns: 377px 6px 377px;
+}
+.border {
+    background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+}
+.leftweak {
+    text-align: right;
+    margin-bottom: 60px;
+    display: grid;
+    column-gap: 0;
+    grid-template-columns: 337px 40px;
+    grid-template-rows: 40px 40px;
+}
+.leftweak div:first-of-type {
+    border-bottom: 1px solid #ffffff;
+    opacity: 0.3;
+    grid-column: 2 /3;
+    grid-row: 1 /1;
+}
+.rightsection {
+    position: relative;
+    top: 65px;
+}
+.rightweak {
+    
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: 60px;
+    display: grid;
+    column-gap: 0;
+    grid-template-columns: 40px 337px;
+    grid-template-rows: 40px 40px;
+}
+.rightweak div:first-of-type {
+    border-bottom: 1px solid #ffffff;
+    opacity: 0.3;
+    grid-column: 1 /1;
+    grid-row: 1 /1;
+}
+.rightweak div:last-of-type {
+    grid-column: 1 /1;
+    grid-row: 2 /3;
+}
+.left-section p,
+.rightsection p {
+    font-size: 14px;
+    line-height: 160%;
+    opacity: 0.5;
+}
+.left-section h3,
+.rightsection h3 {
+    font-size: 18px;
+    line-height: 160%;
 }

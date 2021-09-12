@@ -129,10 +129,16 @@ tr td:last-of-type {
     justify-content: space-between;
 }
 .doing {
+    max-width: 100%;
     margin: 0 10%;
     display: flex;
+    flex-wrap: nowrap;
     gap: 100px;
     margin-bottom: 200px;
+}
+.doing-img {
+    max-width: 100%;
+    object-fit: cover;
 }
 .doing-h {
     font-style: normal;
@@ -299,6 +305,7 @@ tr td:last-of-type {
 .msiimg img {
     width: 25%;
     padding: 29px 66px;
+    object-fit: cover;
 }
 .msi_one img {
     border-bottom: 1px solid rgb(100%, 100%, 100%, 0.3);
@@ -327,7 +334,7 @@ tr td:last-of-type {
     line-height: 140%;
     margin-bottom: 30px;
 }
-.learning p  {
+.learning p {
     font-size: 16px;
     line-height: 160%;
     color: rgb(100%, 100%, 100%, 0.5);
@@ -359,7 +366,6 @@ tr td:last-of-type {
     top: 65px;
 }
 .rightweak {
-    
     text-align: left;
     margin-top: auto;
     margin-bottom: 60px;
@@ -388,4 +394,40 @@ tr td:last-of-type {
 .rightsection h3 {
     font-size: 18px;
     line-height: 160%;
+}
+.mentors {
+    margin: 0 10% 200px;
+}
+.mentors h2 {
+    display: inline;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    margin-bottom: 100px;
+}
+.mentor h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+}
+.mentor p {
+    font-size: 16px;
+    line-height: 160%;
+    opacity: 0.8;
+}
+.mentor a {
+    align-items: center;
+    padding: 10px 30px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #fff;
+
+}
+.mentor {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }

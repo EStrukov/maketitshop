@@ -132,13 +132,20 @@ tr td:last-of-type {
     max-width: 100%;
     margin: 0 10%;
     display: flex;
+    
     flex-wrap: nowrap;
-    gap: 100px;
+    column-gap: 100px;
     margin-bottom: 200px;
 }
 .doing-img {
-    max-width: 100%;
-    object-fit: cover;
+    flex-basis: 40%;
+    
+    position: relative;
+    min-height: 300px;
+}
+.doing-text{
+ flex-basis: 40%;
+ 
 }
 .doing-h {
     font-style: normal;
@@ -446,4 +453,3 @@ tr td:last-of-type {
     border-radius: 50px;
     color: #fff;
 }
-

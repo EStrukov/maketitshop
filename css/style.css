@@ -10,21 +10,31 @@ main {
     background: #000 url(../img/background/main-screen__bgc.jpg) 0 0 / cover no-repeat;
 }
 .nav {
+position: sticky;
     padding: 40px 80px 190px 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .login {
+    position: absolute;
+    content: "";
+    right: 30px;
     padding: 10px 30px;
     background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
     border-radius: 50px;
     color: #ffffff;
-    transition-duration: 3s;
+    transition: all 0.5s ease;
 }
 .login:hover {
-    background: linear-gradient(95deg, rgba(124, 106, 250, 1) 10%, rgba(200, 154, 252, 1) 90%);
+    padding: 20px 30px;
 }
+.logo {
+    position: absolute;
+    content: "";
+    left: 30px;
+}
+
 .nav ul {
     width: 60%;
     display: flex;
@@ -35,13 +45,14 @@ li a {
     color: #fff;
 }
 .main {
-    margin-left: 10%;
-    width: 920px;
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
 .main h1 {
     margin-bottom: 50px;
+    max-width: 920px;
     font-weight: bold;
     font-size: 64px;
     line-height: 90px;
@@ -100,6 +111,10 @@ li a {
     border-radius: 50px;
     padding: 10px 30px;
     color: #fff;
+    transition: all 0.5s ease;
+}
+.main-sales__button a:hover {
+    padding: 20px 30px;
 }
 tr td:last-of-type {
     padding-left: 30px;
@@ -129,23 +144,19 @@ tr td:last-of-type {
     justify-content: space-between;
 }
 .doing {
-    max-width: 100%;
-    margin: 0 10%;
+    max-width: 80%;
+    margin: 0 auto;
     display: flex;
-    
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
     column-gap: 100px;
     margin-bottom: 200px;
 }
 .doing-img {
     flex-basis: 40%;
-    
-    position: relative;
-    min-height: 300px;
 }
-.doing-text{
- flex-basis: 40%;
- 
+.doing-text {
+    flex-basis: 40%;
 }
 .doing-h {
     font-style: normal;

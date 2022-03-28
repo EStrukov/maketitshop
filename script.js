@@ -1,7 +1,7 @@
 
 window.addEventListener('DOMContentLoaded', () => {
 
-    const deadLine = "2022-09-1";
+    const deadLine = "2023-09-1";
 
     function getTimeReamaining(endtime) {
       const t = Date.parse(endtime) - Date.parse(new Date()),
